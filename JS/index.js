@@ -75,12 +75,10 @@ let navbar=document.getElementById("navbar");
     resume_button.setAttribute("id", "resume_button");
 
     let resume_anchor=document.createElement("a");
-    resume_anchor.href="https://drive.google.com/file/d/1-2V3jO364LmRSHhn-wGEZ4pen8_tQzEG/view?usp=sharing";
+    resume_anchor.href="https://drive.google.com/uc?export=download&id=1tKu_2uGUHAtAwAf9LoAjRKl5HG--N5nQ";
     resume_anchor.innerText="Resume";
     resume_anchor.setAttribute("target", "_blank");
-
     resume_button.append(resume_anchor);
-
     let profession_heading=document.createElement("h1");
     profession_heading.innerText="A Back End Engineer."
 
