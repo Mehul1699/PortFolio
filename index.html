@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"
+></script>
+
+<!-- Optionally, include the theme (if you don't want to struggle to write the CSS) -->
+<link
+ rel="stylesheet"
+ href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"
+/>
+    <script src="https://kit.fontawesome.com/7098584867.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/styles/index.css">
+    <title>Portfolio First Draft</title>
+</head>
+<body>
+    <div id="navbar">
+    </div>
+    <div id="aboutme"></div>
+    <div id="projects"></div>
+    <div id="skills"></div>
+    <h1 id="statistic">STATISTICS</h1>
+<div id="project_contribution">
+  <div class="conthead">
+    <h2>1200<span>+</span></h2>
+    <p>Hours of Coding</p>
+  </div>
+
+  <div class="conthead">
+    <h2>300<span>+</span></h2>
+    <p>DSA Problems</p>
+  </div>
+
+  <div class="conthead">
+    <h2>68<span>+</span></h2>
+    <p>Git Commits</p>
+  </div>
+
+  <div class="conthead">
+    <h2>7<span>+</span></h2>
+    <p>Projects</p>
+  </div>
+
+  <div class="conthead">
+    <h2>100<span>+</span></h2>
+    <p>Hours of soft-skill</p>
+  </div>
+</div>
+<h1 class="code">DAYS I CODE</h1>
+<!-- Prepare a container for your calendar. -->
+<div class="calendar">
+  <!-- Loading stuff -->
+  Loading the data just for you.
+</div>
+    <div id="contact">
+        <h1>CONTACT ME</h1>
+        <button><a href="https://github.com/Mehul1699" target="_blank">Github <span><i class="fa-brands fa-github"></i></span></a></button>
+        <button><a href="https://www.linkedin.com/in/mehul-bagga-1269ba196" target="_blank">LinkedIn <i class="fa-brands fa-linkedin"></i></a></button>
+        <button><a href="mailto: mehul19356@gmail.com">Email <i class="fa-solid fa-envelope"></i></a></button>
+        <p>Contact <i class="fa-solid fa-phone"></i> or Whatsapp <i class="fa-brands fa-whatsapp"></i> me on: 8010404900</p>
+    </div>
+</body>
+</html>
+
+
+
+
+<script src="/JS/index.js"></script>
+<script>
+    GitHubCalendar(".calendar", "Mehul1699");
+    // or enable responsive functionality                
+    GitHubCalendar(".calendar", "Mehul1699", { responsive: true });
+    
+  </script>

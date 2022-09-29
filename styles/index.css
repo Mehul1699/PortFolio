@@ -1,0 +1,410 @@
+#navbar{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: rgba(0,0,0,0.3);  /* Set the transparency to 0.3 */
+  overflow: hidden;
+}
+#navbar:hover{
+    background-color:#fff;
+    color: black;
+  }
+#navbar>div{
+    height: auto;
+    width: 50%;
+    margin: auto;
+}
+#name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+#rest{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    align-items: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#rest>div>a{
+    text-decoration: none;
+    color:grey;
+}
+#rest>div>a:hover{
+    color: blue;
+    text-decoration: underline;
+}
+#aboutme{
+    margin: auto;
+    height: auto;
+    margin-top: 30px;
+    width: 90%;
+    color: rgb(54, 53, 53);
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#aboutme>div{
+    margin: auto;
+}
+#photo_div{
+    box-sizing: border-box;
+    margin-left: 20px;
+}
+#photo_div>img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#name_heading{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+#name_span{
+    color: rgb(0, 38, 255);
+}
+#name_details_div{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 30px;
+}
+#name_details_div>h1{
+    margin: -1px;
+}
+#resume_button{
+    padding: 10px;
+    color: blue;
+    border: 2px solid blue;
+    background-color: #fff;
+    border-radius: 5px;
+    display: inline;
+}
+#resume_button>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+#resume_button:hover{
+    background-color: blue;
+}
+#resume_button:hover *{
+    color: white;
+}
+.about{
+    font-size: 22px;
+    color: rgb(73, 72, 72);
+}
+#projects{
+    height: auto;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 120px;
+    margin-top: 150px;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#project_container{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+#project_container>div>.pic_div{
+    height: auto;
+    width: auto;
+}
+.pic_div>img{
+    height: 100%;
+    width: 100%;
+}
+.cards{
+    box-sizing: border-box;
+    padding: 10px;
+    padding-bottom: 40px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.3s;
+}
+.cards:hover {
+    transform: translate(0, -10px);
+    background-color: beige;
+}
+.tech_div{
+    width: 80%;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-bottom: 20px;
+}
+.tech_div>button{
+    border: 0;
+    font-weight: bolder;
+    font-size: 20px;
+    background-color: white;
+}
+.link_div{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.link_div>button{
+    border: 0;
+    background-color: pink;
+    border-radius: 5px;
+    font-weight: bolder;
+    padding: 10px;
+}
+.link_div>button>a{
+    text-decoration: none;
+    font-size: 20px;
+}
+#skills{
+    margin-top: 250px;
+    height: auto;
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 150px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#skills>div{
+    height: auto;
+    width: 40%;
+    margin: auto;
+    text-align: left;
+    /* display: grid;
+    grid-template-columns: repeat(7, 1fr); */
+    /* gap: 20px; */
+    /* border: 1px solid red; */
+}
+#skills>div>h2{
+    margin-left: 35px;
+}
+#skills>div>div>div{
+    height: auto;
+    margin-left: 40px;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+#skills>div>div>div>p{
+    font-weight: bold;
+}
+#skills>div>div>div>img{
+    height: 100px;
+    width: 100px;
+    /* border-radius: 20px; */
+}
+#skills>div>div{
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid teal; */
+    /*  */
+}
+#contact{
+    height: 50%;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#contact>button{
+    margin-right: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+#contact>button>a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+#contact>button:hover{
+    background-color: blue;
+}
+#contact>button:hover *{
+    color:white;
+}
+#contact>p{
+    font-size: 20px;
+    font-weight: bolder;
+}#statistic {
+    margin: auto;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    font-weight: 600;
+    color: #7b7b7b;
+    letter-spacing: 10px;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  #project_contribution {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, auto);
+    font-family: "Poppins", sans-serif;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    padding-top: 100px;
+    align-content: center;
+    padding-bottom: 200px;
+    letter-spacing: 1px;
+  }
+  .conthead {
+    text-align: center;
+    color:black;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 30px;
+    font-size: 20px;
+    padding-bottom: 20px;
+    transition: all 1s;
+  }
+  .conthead:hover {
+    transform: rotateY(360deg);
+  }
+  .conthead > h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .conthead > h2 > span {
+    color: black;
+    font-size: 40px;
+  }
+  .conthead > h2 + p {
+    font-weight: 500;
+  }
+  @media all and (min-width: 500px) and (max-width: 940px) {
+    #statistic {
+      font-size: 40px;
+      margin-top: 100px;
+      font-weight: 700;
+      letter-spacing: 7px;
+    }
+    #project_contribution {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+  }
+  @media all and (min-width: 150px) and (max-width: 500px) {
+    #statistic {
+      font-size: 40px;
+      margin-top: 60px;
+      font-weight: 700;
+      letter-spacing: 5px;
+      padding-top: 70px;
+    }
+    #project_contribution {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(5, auto);
+      padding-top: 50px;
+    }
+  }
+  .code {
+    font-family: "Poppins", sans-serif;
+    color: #7b7b7b;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .calendar {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 76%;
+    margin-bottom: 150px;
+  }
+  .calendar:hover {
+    background-color: black;
+  }
+  
+  
+  
+@media all and (min-width: 451px) and (max-width: 750px){
+
+    #rest{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid teal; */
+    }
+    #aboutme{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #projects{
+        width:90%
+    }
+    #project_container{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #skills>div{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    #contact>button{
+        margin-top: 20px;
+    }
+    #name{
+        display: none;
+    }
+    #skills>div>div{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        /* border: 1px solid teal; */
+        /*  */
+    }
+
+}
+
+@media all and (min-width: 100px) and (max-width: 450px) {
+    #rest{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        /* border: 1px solid red; */
+    }
+    #aboutme{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #projects{
+        width:100%
+    }
+    #project_container{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    #skills>div{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #contact>button{
+        margin-top: 20px;
+    }
+    #name{
+        display: none;
+    }
+    #skills>div>div{
+        display: grid;
+        /* justify-content: left; */
+        grid-template-columns: repeat(1, 1fr);
+        /* border: 1px solid teal; */
+        /*  */
+    }
+}
