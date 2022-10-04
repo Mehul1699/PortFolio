@@ -148,7 +148,7 @@
 .tech_div>button{
     border: 0;
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 16px;
     background-color: white;
 }
 .link_div{
@@ -184,14 +184,14 @@
     height: auto;
     width: 40%;
     margin: auto;
-    text-align: left;
+    /* margin-right: ; */
     /* display: grid;
     grid-template-columns: repeat(7, 1fr); */
     /* gap: 20px; */
     /* border: 1px solid red; */
 }
 #skills>div>h2{
-    margin-left: 35px;
+    text-align: center;
 }
 #skills>div>div>div{
     height: auto;
@@ -287,6 +287,24 @@
   .conthead > h2 + p {
     font-weight: 500;
   }
+  .code {
+    font-family: "Poppins", sans-serif;
+    color: #7b7b7b;
+    font-weight: 600;
+    font-size: 50px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  .calendar {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 76%;
+    margin-bottom: 150px;
+  }
+  .calendar:hover {
+    background-color: black;
+  }
   @media all and (min-width: 500px) and (max-width: 940px) {
     #statistic {
       font-size: 40px;
@@ -315,24 +333,7 @@
       padding-top: 50px;
     }
   }
-  .code {
-    font-family: "Poppins", sans-serif;
-    color: #7b7b7b;
-    font-weight: 600;
-    font-size: 50px;
-    text-align: center;
-    padding-bottom: 50px;
-  }
-  .calendar {
-    color: black;
-    background-color: white;
-    transition: all 0.5s;
-    width: 76%;
-    margin-bottom: 150px;
-  }
-  .calendar:hover {
-    background-color: black;
-  }
+  
   
   
   

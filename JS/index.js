@@ -93,6 +93,79 @@ let navbar=document.getElementById("navbar");
     let container=document.createElement("div");
     container.setAttribute("id", "project_container");
 
+    let card3 = document.createElement("div");
+    card3.setAttribute("class", "cards");
+
+    let pic_div3=document.createElement("div");
+    pic_div3.setAttribute("class", "pic_div");
+
+    let project_image3=document.createElement("img");
+    project_image3.src="/Images/Cab_Booking_Hero_Image.PNG";
+
+    pic_div3.append(project_image3);
+
+    let project_details3=document.createElement("div");
+    project_details3.setAttribute("class", "project_details");
+
+    let project_heading3=document.createElement("h2");
+    project_heading3.innerText="Online Cab Booking Application";
+    let project3_para=document.createElement("p");
+    project3_para.innerText="In this world where everything is run by money, not every person is capable enough to buy his own vehicle. This application helps user to Book Cab anywhere in India.";
+
+    let link_div3=document.createElement("div");
+    link_div3.setAttribute("class", "link_div");
+
+    let github_button3=document.createElement("button");
+    
+    let github_anchor3=document.createElement("a");
+    github_anchor3.href="https://github.com/Mehul1699/CabBookingSystem";
+    github_anchor3.innerText="GitHub";
+    github_anchor3.setAttribute("target", "_blank");
+
+    github_button3.append(github_anchor3);
+
+    let deployed_button3=document.createElement("button");
+
+    let deployed_link3=document.createElement("a");
+    deployed_link3.href="https://drive.google.com/drive/folders/1DQ8fv8kDFeBtEdTWzeQ6to2NBMEfV73B?usp=sharing";
+    deployed_link3.innerText="Live";
+    deployed_link3.setAttribute("target", "_blank");
+
+    deployed_button3.append(deployed_link3);
+
+    link_div3.append(github_button3, deployed_button3);
+
+    let tech_div3=document.createElement("div");
+    tech_div3.setAttribute("class", "tech_div");   // Common for every card
+
+    let tech_button7=document.createElement("button");
+    tech_button7.innerText="JAVA";
+
+    let tech_button8=document.createElement("button");
+    tech_button8.innerText="Spring Framework";
+
+    let tech_button9=document.createElement("button");
+    tech_button9.innerText="Spring Data JPA";
+
+    let tech_button10=document.createElement("button");
+    tech_button10.innerText="Hibernate";
+
+    let tech_button11=document.createElement("button");
+    tech_button11.innerText="MySQL";
+
+    let tech_button12=document.createElement("button");
+    tech_button12.innerText="Swagger UI";
+
+    tech_div3.append(tech_button7, tech_button8, tech_button9, tech_button10, tech_button11, tech_button12);
+    tech_div3.setAttribute("class", "tech_div");
+
+    project_details3.append(project_heading3, project3_para, tech_div3, link_div3);
+
+    card3.append(pic_div3, project_details3);
+
+
+
+
     let card1 = document.createElement("div");
     card1.setAttribute("class", "cards");
 
@@ -109,7 +182,7 @@ let navbar=document.getElementById("navbar");
     let project_heading1=document.createElement("h2");
     project_heading1.innerText="Headphone Zone Clone";
     let project1_para=document.createElement("p");
-    project1_para.innerText="It is India’s first online store for headphones, earphones and Audio devices. This was my first collaborative project. I created Login, Signup and Cart Functionality.";
+    project1_para.innerText="It is India’s first online store for headphones, earphones and Audio devices. This was first collaborative project. Main responsibility were to create Login, Signup and Cart Functionality.";
 
     let tech_div=document.createElement("div");
     tech_div.setAttribute("class", "tech_div");   // Common for every card
@@ -172,7 +245,7 @@ let navbar=document.getElementById("navbar");
     let project_heading2=document.createElement("h2");
     project_heading2.innerText="Meesho Clone";
     let project2_para=document.createElement("p");
-    project2_para.innerText="Meesho is an online selling platform, where we can resell the products too. It deals in products related to clothing, households, kitchen, beauty, footwears etc. This was my first ever Web Development Project which I created individually.";
+    project2_para.innerText="Meesho is an online selling platform, where we can resell the products too. It deals in products related to clothing, households, kitchen, beauty, footwears etc. This was first ever Web Development Project which was created individually.";
     
     let link_div2=document.createElement("div");
     link_div2.setAttribute("class", "link_div");
@@ -216,68 +289,7 @@ let navbar=document.getElementById("navbar");
 
     card2.append(pic_div2, project_details2);
 
-    let card3 = document.createElement("div");
-    card3.setAttribute("class", "cards");
-
-    let pic_div3=document.createElement("div");
-    pic_div3.setAttribute("class", "pic_div");
-
-    let project_image3=document.createElement("img");
-    project_image3.src="/Images/images.jpg";
-
-    pic_div3.append(project_image3);
-
-    let project_details3=document.createElement("div");
-    project_details3.setAttribute("class", "project_details");
-
-    let project_heading3=document.createElement("h2");
-    project_heading3.innerText="Youtube Clone";
-    let project3_para=document.createElement("p");
-    project3_para.innerText="One of most used platforms in the world for watching videos, listening new songs etc. Tired of lots of advertisements on Youtube, I tried cloning Youtube with the help of Youtube API.";
-
-    let link_div3=document.createElement("div");
-    link_div3.setAttribute("class", "link_div");
-
-    let github_button3=document.createElement("button");
-    
-    let github_anchor3=document.createElement("a");
-    github_anchor3.href="https://github.com/Mehul1699/Youtube-API.git";
-    github_anchor3.innerText="GitHub";
-    github_anchor3.setAttribute("target", "_blank");
-
-    github_button3.append(github_anchor3);
-
-    let deployed_button3=document.createElement("button");
-
-    let deployed_link3=document.createElement("a");
-    deployed_link3.href="https://youtubeapi-es6.netlify.app/";
-    deployed_link3.innerText="Live";
-    deployed_link3.setAttribute("target", "_blank");
-
-    deployed_button3.append(deployed_link3);
-
-    link_div3.append(github_button3, deployed_button3);
-
-    let tech_div3=document.createElement("div");
-    tech_div3.setAttribute("class", "tech_div");   // Common for every card
-
-    let tech_button7=document.createElement("button");
-    tech_button7.innerText="HTML";
-
-    let tech_button8=document.createElement("button");
-    tech_button8.innerText="CSS";
-
-    let tech_button9=document.createElement("button");
-    tech_button9.innerText="Javascript";
-
-    tech_div3.append(tech_button7, tech_button8, tech_button9);
-    tech_div3.setAttribute("class", "tech_div");
-
-    project_details3.append(project_heading3, project3_para, tech_div3, link_div3);
-
-    card3.append(pic_div3, project_details3);
-
-    container.append(card1, card2, card3);
+    container.append(card3, card1, card2);
 
     document.getElementById("projects").append(projects_mainheading, container);
 
@@ -422,4 +434,5 @@ let navbar=document.getElementById("navbar");
     tools_div.append(toolsheading, toolsdiv);
     document.getElementById("skills").append(skills_heading, frontendskills_div, backendskills_div, databaseskills_div, tools_div);
 
-    
+    GitHubCalendar(".calendar", "Mehul1699");
+    GitHubCalendar(".calendar", "Mehul1699", { responsive: true });
