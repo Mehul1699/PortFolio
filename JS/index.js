@@ -75,7 +75,7 @@ let navbar=document.getElementById("navbar");
     resume_button.setAttribute("id", "resume_button");
 
     let resume_anchor=document.createElement("a");
-    resume_anchor.href="https://drive.google.com/uc?export=download&id=1tKu_2uGUHAtAwAf9LoAjRKl5HG--N5nQ";
+    resume_anchor.href="https://drive.google.com/uc?export=download&id=1-2V3jO364LmRSHhn-wGEZ4pen8_tQzEG";
     resume_anchor.innerText="Resume";
     resume_anchor.setAttribute("target", "_blank");
     resume_button.append(resume_anchor);
@@ -127,7 +127,7 @@ let navbar=document.getElementById("navbar");
     let deployed_button3=document.createElement("button");
 
     let deployed_link3=document.createElement("a");
-    deployed_link3.href="https://drive.google.com/drive/folders/1DQ8fv8kDFeBtEdTWzeQ6to2NBMEfV73B?usp=sharing";
+    deployed_link3.href="https://drive.google.com/file/d/17NIv8t3VW5jVRKdmzgZEjUjISiFEmrXs/view?usp=sharing";
     deployed_link3.innerText="Live";
     deployed_link3.setAttribute("target", "_blank");
 
