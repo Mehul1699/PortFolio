@@ -2,7 +2,7 @@ let navbar=document.getElementById("navbar");
     let name_div=document.createElement("div");
     name_div.setAttribute("id", "name");
     let para1=document.createElement("p");
-    para1.innerText="M.";
+    para1.innerText="MB.";
     name_div.append(para1);
 
     let rest=document.createElement("div");
@@ -65,7 +65,7 @@ let navbar=document.getElementById("navbar");
     name_heading.innerText="Hi, I am";
     name_heading.setAttribute("id", "name_heading")
     let name_span=document.createElement("span");
-    name_span.innerText=" Mehul.";
+    name_span.innerText=" Mehul Bagga.";
     name_span.setAttribute("id", "name_span");
     name_heading.append(name_span);
     let about=document.createElement("p");
