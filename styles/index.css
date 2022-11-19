@@ -305,6 +305,18 @@
   .calendar:hover {
     background-color: black;
   }
+  #landing1{
+    height: 70px;
+    width: 100%;
+  }
+  #landing2{
+    height: 40px;
+    width: 100%;
+  }
+  #landing3{
+    height: 70px;
+    width: 100%;
+  }
   @media all and (min-width: 500px) and (max-width: 940px) {
     #statistic {
       font-size: 40px;
